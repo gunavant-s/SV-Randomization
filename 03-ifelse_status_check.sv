@@ -6,7 +6,7 @@ class generator;
   randc bit [3:0] a, b; ///rand or randc 
   bit [3:0] y;
 
-  constraint data {a>16;}
+  //constraint data {a>16;}
 endclass
  
 //rand keyword -> repetition of value. 
