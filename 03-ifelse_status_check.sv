@@ -20,6 +20,10 @@ module tb;
   
   initial begin
     g = new();
+    if(!g.randomize()) begin
+      $display("Randomization not possible at %0d",$time);
+      $finish();
+    end
     
     for(i=0;i<10;i++) begin
       status = g.randomize(); // returns 1 if randomization is possible else 0
