@@ -1,4 +1,4 @@
-
+//extern is used to declare a variable as a global variable such that a variable declared in another scope of the same file or another file can be accessed from anywhere in the program. 
 class generator;
   
   randc bit [7:0] a,b;
@@ -17,6 +17,7 @@ endclass
       $display("Value of a : %0d and b : %0d", a,b);
     endfunction
     
+    //Without an obejct reference or creation the above can be accessed outside the class
     
 module tb;
   
