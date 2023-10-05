@@ -21,10 +21,10 @@ module tb;
     
     for(i=0;i<10;i++) begin
       
-      if(!g.randomize()) begin
-        $display("Randomization not possible at %0d",$time);
-        $finish();
-      end
+      assert(g.randomize()) else $display("Randomization Failed");
+      $display("Value of a :%0d and b: %0d", g.a,g.b);
+      #10;
+    end
         
       $display("Value of a :%0d and b: %0d. Status:%0d", g.a,g.b,status);
       #10;
