@@ -1,4 +1,4 @@
-
+// comparing := and :/ operators
 class first;
   
   rand bit wr; //:=
@@ -12,7 +12,7 @@ class first;
   
   constraint data {
   	
-    var1 dist {0 :/ 30, [1:3] :/ 90};  // 30 + 90*3 = 300 . Here not divided so 90 for each 1,2,3
+    var1 dist {0 := 30, [1:3] := 90};  // 30 + 90*3 = 300 . Here not divided so 90 for each 1,2,3
     // P(0) = 30/300, P(1,2,3) = 90/300
     var2 dist {0 :/ 30, [1:3] :/ 90};// 30+90 = 120 As weight divided equally 1,2,3 have 30 each
     //// P(0,1,2,3) = 30/120
