@@ -50,3 +50,21 @@ module tb;
  
   
 endmodule
+
+/*
+# KERNEL: Value of wr : 0 | oe : 1 |  raddr : 14 | waddr : 0 |
+# KERNEL: Value of wr : 1 | oe : 0 |  raddr : 0 | waddr : 11 |
+# KERNEL: Value of wr : 1 | oe : 0 |  raddr : 0 | waddr : 14 |
+# KERNEL: Value of wr : 1 | oe : 0 |  raddr : 0 | waddr : 13 |
+# KERNEL: Value of wr : 1 | oe : 0 |  raddr : 0 | waddr : 12 |
+# KERNEL: Value of wr : 1 | oe : 0 |  raddr : 0 | waddr : 15 |
+# KERNEL: Value of wr : 0 | oe : 1 |  raddr : 13 | waddr : 0 |
+# KERNEL: Value of wr : 1 | oe : 0 |  raddr : 0 | waddr : 15 |
+# KERNEL: Value of wr : 1 | oe : 0 |  raddr : 0 | waddr : 14 |
+# KERNEL: Value of wr : 1 | oe : 0 |  raddr : 0 | waddr : 12 |
+# KERNEL: Value of wr : 1 | oe : 0 |  raddr : 0 | waddr : 11 |
+# KERNEL: Value of wr : 1 | oe : 0 |  raddr : 0 | waddr : 13 |
+# KERNEL: Value of wr : 0 | oe : 1 |  raddr : 11 | waddr : 0 |
+# KERNEL: Value of wr : 1 | oe : 0 |  raddr : 0 | waddr : 15 |
+# KERNEL: Value of wr : 1 | oe : 0 |  raddr : 0 | waddr : 11 |
+*/
