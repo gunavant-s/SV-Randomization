@@ -36,7 +36,7 @@ module tb;
   initial begin
     f = new();
     
-    for(int i=0;i<10;i++) begin
+    for(int i=0;i<15;i++) begin
       f.randomize();
       // $display("Values wr : %0d, rd : %0d",f.wr,f.rd);
       $display("Values var1(:=) is %0d, var2(:/) is %0d",f.var1,f.var2); 
@@ -57,4 +57,9 @@ endmodule
 # KERNEL: Values var1(:=) is 2, var2(:/) is 1
 # KERNEL: Values var1(:=) is 0, var2(:/) is 2
 # KERNEL: Values var1(:=) is 3, var2(:/) is 1
+# KERNEL: Values var1(:=) is 2, var2(:/) is 1
+# KERNEL: Values var1(:=) is 1, var2(:/) is 1
+# KERNEL: Values var1(:=) is 3, var2(:/) is 1
+# KERNEL: Values var1(:=) is 3, var2(:/) is 2
+# KERNEL: Values var1(:=) is 1, var2(:/) is 3
 */
