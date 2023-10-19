@@ -3,7 +3,7 @@
 
 class generator;
   
-  rand bit [3:0] a, b; ///rand or randc 
+  randc bit [3:0] a, b; ///rand or randc 
   bit [3:0] y;
   
 endclass
