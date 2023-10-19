@@ -26,20 +26,7 @@ module tb;
       $display("Value of a :%0d and b: %0d", g.a,g.b);
       #10;
     end
-    
-    /*
-    # KERNEL: Value of a :6 and b: 5
-	# KERNEL: Value of a :3 and b: 4
-	# KERNEL: Value of a :15 and b: 13
-	# KERNEL: Value of a :11 and b: 8
-	# KERNEL: Value of a :7 and b: 8
-	# KERNEL: Value of a :10 and b: 10
-	# KERNEL: Value of a :11 and b: 13
-	# KERNEL: Value of a :13 and b: 4
-	# KERNEL: Value of a :9 and b: 9
-	# KERNEL: Value of a :1 and b: 11
-    */
-    
+
   //no repetition of a,b
     
   end
